@@ -1,1 +1,7 @@
-Meu primeiro Readme
+## Sobre o projeto
+
+A **API** **Barber Boss Management** é um sistema de gerenciamento para barbearias desenvolvido em **.NET 8**, utilizando uma arquitetura em camadas e seguindo o conceito de **Domain Driven Design (DDD)**. O projeto permite que os proprietários de barbearias realizem login, cadastrem suas barbearias e registrem faturamentos mensais de forma simples e eficaz.
+
+As principais funcionalidades incluem operações **CRUD** para usuários, barbearias e faturamentos. A estrutura do banco de dados é composta por três tabelas: Revenue (faturamento), que está vinculada a uma barbearia; Barbearia, que é associada a um usuário; e a tabela de usuários do sistema.
+
+Os dados são armazenados em um banco de dados **MySQL**, e a arquitetura do projeto é baseada em **REST**, proporcionando uma interação eficiente entre o cliente e o servidor. Para facilitar o desenvolvimento, foram utilizados pacotes NuGet como **AutoMapper**, responsável pelo mapeamento entre objetos de domínio e requisições/respostas, reduzindo a necessidade de código repetitivo; **FluentValidation**, que implementa regras de validação de forma simples e intuitiva nas classes de requisições, mantendo o código limpo e fácil de manter; e **FluentAssertions**, utilizado nos testes de unidade para tornar as verificações mais legíveis e ajudar a escrever testes claros e compreensíveis. Além disso, o **Entity Framework** atua como um ORM(Object-Relational Mapper) que simplifica as interações com o banco de dados, permitindo o uso de objetos .NET para manipular dados diretamente, sem a necessiade de lidar com consultas SQL.
