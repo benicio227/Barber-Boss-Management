@@ -13,6 +13,10 @@ Os dados são armazenados em um banco de dados **MySQL**, e a arquitetura do pro
 - **Geração de Relatórios**: Capacidade de exportar relatórios detalhados para **PDF** e **Excel**, oferecendo uma análise visual e eficaz das despesas.
 - **RESTful API com Documentação Swagger**: Interface documentada que facilita a integração e o teste por parte dos desenvolvedores. 
 
+### Funcionalidade em Desenvolvimento
+
+- Geração de Relatórios em PDF: A funcionalidade de exportação de relatórios detalhados para PDF está em fase de implementação e pode não funcionar corretamente no momento. Futuras atualizações incluirão a correção dessa funcionalidade.
+
 ### Construído com
 
 ![.NET Badge](https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=fff&style=for-the-badge)
